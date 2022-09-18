@@ -38,10 +38,20 @@
         </nav>
         <ul class="contact-list list">
           <li class="item">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="contact-icon">
+              <svg class="icon-header" width="16px" height="12px">
+                <use href="./images/sprite.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="item">
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="contact-icon">
+              <svg class="icon-header" width="10px" height="16px">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -80,7 +90,7 @@
           <!--Приклади робіт-->
           <ul class="projects-list list">
             <li class="project-item">
-              <a href="">
+              <a href="" class="item-link">
                 <img
                   src="./images/img21-site-techk.jpg"
                   alt="Сайт Технокряк"
@@ -93,7 +103,7 @@
               </a>
             </li>
             <li class="project-item">
-              <a href="">
+              <a href="" class="item-link">
                 <img
                   src="./images/img22-dis-post.jpg"
                   alt="Постер New Orlean vs Golden Star"
@@ -108,7 +118,7 @@
               </a>
             </li>
             <li class="project-item">
-              <a href="">
+              <a href="" class="item-link">
                 <img
                   src="./images/img23-app-rest.jpg"
                   alt="Ресторан Seafood"
@@ -121,7 +131,7 @@
               </a>
             </li>
             <li class="project-item">
-              <a href="">
+              <a href="" class="item-link">
                 <img
                   src="./images/img24-mark-prime.jpg"
                   alt="Проєкт Prime"
@@ -134,7 +144,7 @@
               </a>
             </li>
             <li class="project-item">
-              <a href="">
+              <a href="" class="item-link">
                 <img
                   src="./images/img25-app-box.jpg"
                   alt="Проєкт Boxes"
@@ -147,7 +157,7 @@
               </a>
             </li>
             <li class="project-item">
-              <a href="">
+              <a href="" class="item-link">
                 <img
                   src="./images/img26-site-ins.jpg"
                   alt="Inspiration has no Borders"
@@ -160,7 +170,7 @@
               </a>
             </li>
             <li class="project-item">
-              <a href="">
+              <a href="" class="item-link">
                 <img
                   src="./images/img27-dis-lim.jpg"
                   alt="Видання Limited Edition"
@@ -173,7 +183,7 @@
               </a>
             </li>
             <li class="project-item">
-              <a href="">
+              <a href="" class="item-link">
                 <img
                   src="./images/img28-mark-lab.jpg"
                   alt="Проєкт LAB"
@@ -186,7 +196,7 @@
               </a>
             </li>
             <li class="project-item">
-              <a href="">
+              <a href="" class="item-link">
                 <img
                   src="./images/img29-app-grow.jpg"
                   alt="Growing Business"
@@ -205,30 +215,65 @@
 
     <!--Підвал-->
     <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="logo">
-          <span class="accent">Web</span><span class="white">Studio</span></a
-        >
-        <address class="address">
-          <ul class="address-list list">
-            <li class="address-list-item">
-              <a
-                href="https://goo.gl/maps/fWM63ZZyUuKe5TPd6"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="white"
-              >
-                <span class="white">м. Київ, бульвар Лесі Українки, 26 </span>
-              </a>
-            </li>
-            <li class="address-list-item">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class="address-list-item">
-              <a href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
+      <div class="container footer-contant">
+        <div class="logo-address">
+          <a href="./index.html" class="logo">
+            <span class="accent">Web</span><span class="white">Studio</span></a
+          >
+          <address class="address">
+            <ul class="address-list list">
+              <li class="address-list-item">
+                <a
+                  href="https://goo.gl/maps/fWM63ZZyUuKe5TPd6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="white"
+                >
+                  <span class="white">м. Київ, бульвар Лесі Українки, 26 </span>
+                </a>
+              </li>
+              <li class="address-list-item">
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="address-list-item">
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="joinin">
+          <b class="join-title"><strong>приєднуйтесь</strong></b>         
+          <ul class="social-list list">
+              <li class="social-link">
+                  <a href="" class="social-logo-footer">
+                      <svg class="social-icon">
+                        <use href="./images/sprite.svg#icon-instagram"></use>
+                      </svg>
+                  </a>
+              </li>
+              <li class="social-link">
+                  <a href="" class="social-logo-footer">
+                      <svg class="social-icon">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                      </svg>
+                  </a>
+              </li>
+              <li class="social-link">
+                  <a href="" class="social-logo-footer">
+                      <svg class="social-icon">
+                        <use href="./images/sprite.svg#icon-facebook"></use>
+                      </svg>
+                  </a>
+              </li>
+              <li class="social-link">
+                  <a href="" class="social-logo-footer">
+                      <svg class="social-icon">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                  </a>
+              </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
