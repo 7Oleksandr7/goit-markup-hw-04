@@ -134,6 +134,7 @@ img {
 
 .contact-list {
   display: flex;
+  
   margin-left: auto;
   cursor: pointer;
 }
@@ -144,6 +145,8 @@ img {
 
 .contact-list a {
   display: flex;
+  align-items: center;
+
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -304,8 +307,6 @@ img {
   align-items: center;
   justify-content: center;
   margin-top: 16px;
-  margin-right: 32px;
-  margin-left: 32px;
 }
 
 .social-logo{
@@ -446,6 +447,7 @@ img {
 .join-title{
   margin-bottom: 20px;
 
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
